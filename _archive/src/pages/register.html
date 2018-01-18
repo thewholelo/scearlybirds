@@ -1,0 +1,131 @@
+<?php
+try
+{
+  $pdo = new PDO('mysql:host=localhost;dbname=scearlybirds', 'twl0987', 'twl0987');
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $pdo->exec('SET NAMES "utf8"');
+}
+catch (PDOException $e)
+{
+  $output = 'Unable to connect to the database server: ';
+  include 'output.html.php';
+  exit();
+}
+
+$output = 'Database connection established.';
+include 'output.html.php';
+?>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+
+
+    <div class="large-12 cell">
+      <h4>Registration Form</h4>
+    </div>
+  </div>
+
+  <form>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="medium-4 cell">
+          <label>Your Member Number
+            <input type="text" placeholder="eg. 2107">
+          </label>
+        </div>
+        <div class="medium-4 cell">
+          <label>On Which Course
+            <select>
+              <option value="Palms">The Palms</option>
+              <option value="Pines">The Pines</option>
+            </select>
+          </label>
+        </div>
+        <div class="medium-4 cell">
+          <label>On Which Day
+            <select>
+              <option value="draw1">drawDate_1</option>
+              <option value="draw2">drawDate_2</option>
+              <option value="draw3">drawDate_3</option>
+              <option value="draw4">drawDate_4</option>
+            </select>
+          </label>
+        </div>
+
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+
+        <div class="medium-6 cell">
+          <h5>Register a Guest</h5>
+          <p>If you have guests you would like to register to play, please complete this section first:</p>
+          <label>Guest First Name
+            <input type="text" placeholder="Guest First Name">
+          </label>
+          <label>Guest Last Name
+            <input type="text" placeholder="Guest Last Name">
+          </label>
+          <label>Guest Email
+            <input type="text" placeholder="Guest Email">
+          </label>
+            <a href="register.html.php" class="button expanded">Register Guest</a>
+        </div>
+
+        <?php
+        try
+        {
+          $sql = 'SELECT firstName FROM tblPlayers';
+          $result = $pdo->query($sql);
+        }
+        catch (PDOException $e)
+        {
+          $error = 'Error fetching players: ' . $e->getMessage();
+          include 'create-draw.html.php';
+          exit();
+        }
+
+        while ($row = $result->fetch())
+        {
+          $jokes[] = $row['firstName'];
+        }
+
+        include 'draw.html.php';
+
+        ?>
+
+
+        <div class="medium-6 cell">
+          <h5>Register Members</h5>
+          <fieldset class="medium-6 cell">
+            <legend>Please select all of the players you are registering today:</legend>
+            <input id="checkbox1" type="checkbox"><label for="checkbox1"><?=$row?></label><br>
+            <input id="checkbox2" type="checkbox"><label for="checkbox2">ALLEN John</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">BEYNON Trevor</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">BLAIS Pierre</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">CHEUNG Randy</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">CLARK Ivan</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">CLARKE Shaun</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">COOL Bas</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">CORNELL Ted</label><br>
+            <input id="checkbox3" type="checkbox"><label for="checkbox3">CRAVEN Gregory</label><br>
+          </fieldset>
+          <a href="register.html.php" class="button expanded">Register the Selected Members</a>
+        </div>
+
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x grid-padding-y">
+
+          <div class="medium-12 cell">
+            <h5>Comments</h5>
+            <p>Do you have any additional comments or notes you would like to provide us?</p>
+            <label>Notes
+              <textarea placeholder="eg. time preference"></textarea>
+            </label>
+          </div>
+
+        </div>
+    </div>
+  </form>
+
+</div>
