@@ -90,4 +90,4 @@ while ($row = $resultDraw->fetch())
 {
   $draws[] = $row['dateStart'];
 }
-?>
+

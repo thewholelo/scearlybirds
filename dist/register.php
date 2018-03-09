@@ -90,4 +90,3 @@ if (isset($_POST['registerPlayers']))
     {
       $draws[] = $row['dateStart'];
     }
-?>

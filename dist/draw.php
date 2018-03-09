@@ -36,6 +36,3 @@ ORDER BY
 	dr.timeStart
 	";
 $result = $conn->query($sql);
-
-
-?>
