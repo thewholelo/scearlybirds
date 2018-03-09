@@ -1,93 +1,69 @@
 <?php
-if (get_magic_quotes_gpc())
-{
-  $process = array(&$_GET, &$_POST, &$_COOKIE, &$_REQUEST);
-  while (list($key, $val) = each($process))
-  {
-    foreach ($val as $k => $v)
-    {
-      unset($process[$key][$k]);
-      if (is_array($v))
-      {
-        $process[$key][stripslashes($k)] = $v;
-        $process[] = &$process[$key][stripslashes($k)];
-      }
-      else
-      {
-        $process[$key][stripslashes($k)] = stripslashes($v);
-      }
-    }
-  }
-  unset($process);
-}
-if (isset($_POST['registerPlayers']))
-{
-  try
-  {
-    $sql = "INSERT INTO tblRegistration SET
-        fk_Player = ''
-        , fk_Course = ''
-        , fk_Draw = ''
-        , fk_RegisteredBy = ''
-        , comments = ''
-        , blnBooked = 0
-        , dteCreated = CURDATE()
-        ,dteUpdated = CURDATE()";
-    $s = $pdo->prepare($sql);
-    $s->bindValue($_POST['currentUser'], $_POST['currentUser']);
-    $s->execute();
-  }
-  catch (PDOException $e)
-  {
-    $error = 'Error adding submitted players: ' . $e->getMessage();
-    //   include 'error.html.php';
-    exit();
-  }
-
-  header('Location: .');
-  exit();
-}
-try
-{
-  $pdo = new PDO('mysql:host=localhost;dbname=scEarlyBirds', 'twl0987', 'twl0987');
-  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $pdo->exec('SET NAMES "utf8"');
-}
-catch (PDOException $e)
-{
-  $error = 'Please contact Lo on lo@thewholelo.com - Unable to connect to the database server.';
-  //include 'error.html.php';
-  exit();
-}
-
-try
-{
-  $sqlNames = "SELECT firstName, lastName FROM tblPlayer ORDER BY lastName";
-  $sqlCourse = "SELECT courseName, teeOffHole FROM tblCourse";
-  $sqlDraw = "SELECT DISTINCT dateStart FROM tblDraw";
-  $resultNames = $pdo->query($sqlNames);
-  $resultCourses = $pdo->query($sqlCourse);
-  $resultDraw = $pdo->query($sqlDraw);
-}
-catch (PDOException $e)
-{
-  $error = 'Please contact Lo on lo@thewholelo.com - Error fetching names: ' . $e->getMessage();
-  // include 'error.html.php';
-  exit();
-}
-
-while ($row = $resultNames->fetch())
-{
-  $names[] = strtoupper($row['lastName']) . ' ' . $row['firstName'];
-}
-
-while ($row = $resultCourses->fetch())
-{
-  $courses[] = $row['courseName'] . ' - ' . $row['teeOffHole'] . ' hole';
-}
-
-while ($row = $resultDraw->fetch())
-{
-  $draws[] = $row['dateStart'];
-}
+include 'includes/header.html.php';
 ?>
+
+<?php
+include 'cancel.php';
+?>
+
+<form action="registerPlayers" method="post">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="large-12 cell">
+        <h4>Cancel and Contact Form</h4>
+      </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="medium-6 cell">
+        <label>Your Member Number
+          <input type="text" placeholder="eg. 2107">
+        </label>
+        <label>Your Name
+          <select name="currentUser">
+            <option class="defaultDropDown" value="choose one" style="display: none;" selected>Choose One</option>
+            <?php foreach ($names as $name): ?>
+              <option value="<?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8'); ?>
+              </option>
+            <?php endforeach; ?>
+          </select>
+        </label>
+        <label>On Which Day
+          <select>
+            <option value="choose one" style="display: none;" selected>Choose One</option>
+            <?php foreach ($draws as $draw): ?>
+              <option value="<?php echo htmlspecialchars($draw, ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($draw, ENT_QUOTES, 'UTF-8'); ?>
+              </option>
+            <?php endforeach; ?>
+          </select>
+        </label>
+        <!--button-->
+        <a href="#" class="button expanded">Who am I playing with?</a>
+      </div>
+      <div class="medium-6 cell">
+        <p>We have you registered to play on Palms 1st at 6:04am with:</p>
+        <ul>
+          <li>SMITH Adam</li>
+          <li>BROWN John</li>
+          <li>JONES Mark</li>
+        </ul>
+
+        <h5>Comments</h5>
+        <p>Do you have any notes you would like to include in your cancellation?</p>
+        <label>Comments:
+          <textarea placeholder="eg. Catch you next time boys"></textarea>
+        </label>
+
+        <a href="register.html.php" class="button expanded">Contact the Displayed Members</a>
+
+      </div>
+    </div>
+</form>
+
+<!-- closing the tags opened in includes/header.html.php -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
