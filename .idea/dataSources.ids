@@ -24,8 +24,8 @@
       </column>
       <column id="8" parent="2" name="teeOffHole">
         <mandatory>1</mandatory>
-        <data-type>int(2)</data-type>
-        <default-expression>&apos;1&apos;</default-expression>
+        <data-type>varchar(9)</data-type>
+        <default-expression>&apos;1st&apos;</default-expression>
       </column>
       <column id="9" parent="2" name="dteCreated">
         <mandatory>1</mandatory>
@@ -144,65 +144,69 @@
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="36" parent="5" name="fk_RegisteredBy">
+      <column id="36" parent="5" name="intSortOrder">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="37" parent="5" name="fk_RegisteredBy">
         <mandatory>1</mandatory>
         <data-type>int(11) unsigned</data-type>
       </column>
-      <column id="37" parent="5" name="comments">
+      <column id="38" parent="5" name="comments">
         <data-type>blob</data-type>
       </column>
-      <column id="38" parent="5" name="blnBooked">
+      <column id="39" parent="5" name="blnBooked">
         <mandatory>1</mandatory>
         <data-type>tinyint(1)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="39" parent="5" name="dteCreated">
+      <column id="40" parent="5" name="dteCreated">
         <mandatory>1</mandatory>
         <data-type>datetime</data-type>
       </column>
-      <column id="40" parent="5" name="dteUpdated">
+      <column id="41" parent="5" name="dteUpdated">
         <mandatory>1</mandatory>
         <data-type>datetime</data-type>
       </column>
-      <index id="41" parent="5" name="tblRegistration_fk_Course">
+      <index id="42" parent="5" name="tblRegistration_fk_Course">
         <columns>fk_Course</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="42" parent="5" name="tblRegistration_fk_Draw">
+      <index id="43" parent="5" name="tblRegistration_fk_Draw">
         <columns>fk_Draw</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="43" parent="5" name="tblRegistration_fk_Player">
+      <index id="44" parent="5" name="tblRegistration_fk_Player">
         <columns>fk_Player</columns>
         <desc-columns></desc-columns>
       </index>
-      <index id="44" parent="5" name="tblRegistration_fk_RegistrationOwner">
+      <index id="45" parent="5" name="tblRegistration_fk_RegistrationOwner">
         <columns>fk_RegisteredBy</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="45" parent="5" name="PRIMARY">
+      <key id="46" parent="5" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="46" parent="5" name="tblRegistration_fk_Course">
+      <foreign-key id="47" parent="5" name="tblRegistration_fk_Course">
         <columns>fk_Course</columns>
         <ref-key>~.tblCourse.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="47" parent="5" name="tblRegistration_fk_Draw">
+      <foreign-key id="48" parent="5" name="tblRegistration_fk_Draw">
         <columns>fk_Draw</columns>
         <ref-key>~.tblDraw.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="48" parent="5" name="tblRegistration_fk_Player">
+      <foreign-key id="49" parent="5" name="tblRegistration_fk_Player">
         <columns>fk_Player</columns>
         <ref-key>~.tblPlayer.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="49" parent="5" name="tblRegistration_fk_RegistrationOwner">
+      <foreign-key id="50" parent="5" name="tblRegistration_fk_RegistrationOwner">
         <columns>fk_RegisteredBy</columns>
         <ref-key>~.tblPlayer.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>

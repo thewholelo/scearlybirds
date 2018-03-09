@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="431370b2-e5df-4067-b5ab-373315d12f98" name="Default" comment="" />
+    <list default="true" id="431370b2-e5df-4067-b5ab-373315d12f98" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dxd_scEarlyBirds.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,80 +56,7 @@
     <favorites_list name="dxd_scEarlyBirds" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.html.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/register.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-              <folding>
-                <marker date="1515277463000" expanded="true" signature="584:830" placeholder="INSERT INTO tblRegistration... " />
-                <marker date="1515277463000" expanded="true" signature="1567:1626" placeholder="SELECT first... tblPlayer" />
-                <marker date="1515277463000" expanded="true" signature="1649:1693" placeholder="SELECT cours... tblCourse" />
-                <marker date="1515277463000" expanded="true" signature="1714:1752" placeholder="SELECT DISTI... tblDraw" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/includes/header.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cancel.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/cancel.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
-              <folding>
-                <marker date="1515278652000" expanded="true" signature="584:830" placeholder="INSERT INTO tblRegistration... " />
-                <marker date="1515278652000" expanded="true" signature="1516:1575" placeholder="SELECT first... tblPlayer" />
-                <marker date="1515278652000" expanded="true" signature="1594:1638" placeholder="SELECT cours... tblCourse" />
-                <marker date="1515278652000" expanded="true" signature="1655:1693" placeholder="SELECT DISTI... tblDraw" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/assets/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42165">
-              <caret line="2811" column="29" selection-start-line="2811" selection-start-column="29" selection-end-line="2811" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draw.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/draw.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +64,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,13 +87,18 @@
         <option value="$PROJECT_DIR$/dist/register-additional.html.php" />
         <option value="$PROJECT_DIR$/dist/create-draw.html.php" />
         <option value="$PROJECT_DIR$/dist/assets/css/app.css" />
-        <option value="$PROJECT_DIR$/dist/draw.html.php" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/dist/contact.html.php" />
         <option value="$PROJECT_DIR$/dist/includes/header.html.php" />
-        <option value="$PROJECT_DIR$/dist/index.html.php" />
-        <option value="$PROJECT_DIR$/dist/register.html.php" />
+        <option value="$PROJECT_DIR$/dist/cancel.php" />
         <option value="$PROJECT_DIR$/dist/cancel.html.php" />
+        <option value="$PROJECT_DIR$/dist/contact.html.php" />
+        <option value="$PROJECT_DIR$/dist/contact.php" />
+        <option value="$PROJECT_DIR$/dist/draw.html.php" />
+        <option value="$PROJECT_DIR$/dist/draw.php" />
+        <option value="$PROJECT_DIR$/dist/index.php" />
+        <option value="$PROJECT_DIR$/dist/index.html.php" />
+        <option value="$PROJECT_DIR$/dist/register.php" />
+        <option value="$PROJECT_DIR$/dist/register.html.php" />
       </list>
     </option>
   </component>
@@ -175,7 +114,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,6 +176,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,22 +242,24 @@
       <workItem from="1515025255132" duration="722000" />
       <workItem from="1515195174825" duration="12651000" />
       <workItem from="1516177658001" duration="774000" />
+      <workItem from="1518922586769" duration="5957000" />
+      <workItem from="1520393612175" duration="750000" />
+      <workItem from="1520480753959" duration="23000" />
+      <workItem from="1520563481259" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23182000" />
+    <option name="totallyTimeSpent" value="31187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21030043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22174536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16380544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -328,6 +269,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847682" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -350,27 +293,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/register.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="232" selection-end-column="7" />
-          <folding>
-            <marker date="1515277463000" expanded="true" signature="584:830" placeholder="INSERT INTO tblRegistration... " />
-            <marker date="1515277463000" expanded="true" signature="1567:1626" placeholder="SELECT first... tblPlayer" />
-            <marker date="1515277463000" expanded="true" signature="1649:1693" placeholder="SELECT cours... tblCourse" />
-            <marker date="1515277463000" expanded="true" signature="1714:1752" placeholder="SELECT DISTI... tblDraw" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/includes/header.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -381,190 +303,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/register.html.php" />
-    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadLayouts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadPartials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact.php" />
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/forms/_checkbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/cancel.php" />
-    <entry file="file://$PROJECT_DIR$/src/pages/create-draw.php" />
-    <entry file="file://$PROJECT_DIR$/src/pages/draw.php" />
-    <entry file="file://$PROJECT_DIR$/src/pages/register.php" />
-    <entry file="file://$PROJECT_DIR$/src/pages/create-draw.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94320f37-8f69-46e7-aac6-b1929145bb27/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/register.html.php" />
-    <entry file="file://$PROJECT_DIR$/src/styleguide/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="147" column="41" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadLayouts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadPartials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/dist/css/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="5301" column="34" selection-start-line="5301" selection-start-column="34" selection-end-line="5301" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/customizer/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1605">
-          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/register-additional.html.php" />
-    <entry file="file://$PROJECT_DIR$/dist/create-draw.html.php" />
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/contact.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/cancel.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="1965">
           <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
           <folding>
-            <marker date="1515278652000" expanded="true" signature="584:830" placeholder="INSERT INTO tblRegistration... " />
-            <marker date="1515278652000" expanded="true" signature="1516:1575" placeholder="SELECT first... tblPlayer" />
-            <marker date="1515278652000" expanded="true" signature="1594:1638" placeholder="SELECT cours... tblCourse" />
-            <marker date="1515278652000" expanded="true" signature="1655:1693" placeholder="SELECT DISTI... tblDraw" />
+            <marker date="1520564424000" expanded="true" signature="538:784" placeholder="INSERT INTO tblRegistration... " />
+            <marker date="1520564424000" expanded="true" signature="1470:1529" placeholder="SELECT first... tblPlayer" />
+            <marker date="1520564424000" expanded="true" signature="1548:1592" placeholder="SELECT cours... tblCourse" />
+            <marker date="1520564424000" expanded="true" signature="1609:1647" placeholder="SELECT DISTI... tblDraw" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,20 +334,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/draw.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520564682000" expanded="false" signature="581:598" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="599:826" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="616:826" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="954:1249" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html.php">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/dist/register.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="232" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/includes/header.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/register.html.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadLayouts.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadPartials.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/contact.php" />
+    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/scss/forms/_checkbox.scss" />
+    <entry file="file://$PROJECT_DIR$/src/pages/cancel.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/create-draw.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/draw.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/register.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/create-draw.html.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94320f37-8f69-46e7-aac6-b1929145bb27/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/register.html.php" />
+    <entry file="file://$PROJECT_DIR$/src/styleguide/template.html" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js" />
+    <entry file="file://$PROJECT_DIR$/src/layouts/default.html" />
+    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadLayouts.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/panini/lib/loadPartials.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/output.html.php" />
+    <entry file="file://$PROJECT_DIR$/src/pages/register.html" />
+    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/dist/css/foundation.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/foundation-sites/customizer/config.yml" />
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/_settings.scss" />
+    <entry file="file://$PROJECT_DIR$/dist/register-additional.html.php" />
+    <entry file="file://$PROJECT_DIR$/dist/create-draw.html.php" />
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/app.scss" />
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html" />
     <entry file="file://$PROJECT_DIR$/dist/includes/header.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -602,15 +411,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="2811" column="29" selection-start-line="2811" selection-start-column="29" selection-end-line="2811" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/contact.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/cancel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/cancel.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <marker date="1520564424000" expanded="true" signature="538:784" placeholder="INSERT INTO tblRegistration... " />
+            <marker date="1520564424000" expanded="true" signature="1470:1529" placeholder="SELECT first... tblPlayer" />
+            <marker date="1520564424000" expanded="true" signature="1548:1592" placeholder="SELECT cours... tblCourse" />
+            <marker date="1520564424000" expanded="true" signature="1609:1647" placeholder="SELECT DISTI... tblDraw" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/draw.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <marker date="1520564682000" expanded="false" signature="581:598" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="599:826" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="616:826" placeholder="..." />
+            <marker date="1520564682000" expanded="true" signature="954:1249" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/draw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520564698000" expanded="true" signature="305:1014" placeholder="SELECT DATE_... tblRegistration" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/register.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
           <folding>
-            <marker date="1515277463000" expanded="true" signature="584:830" placeholder="INSERT INTO tblRegistration... " />
-            <marker date="1515277463000" expanded="true" signature="1567:1626" placeholder="SELECT first... tblPlayer" />
-            <marker date="1515277463000" expanded="true" signature="1649:1693" placeholder="SELECT cours... tblCourse" />
-            <marker date="1515277463000" expanded="true" signature="1714:1752" placeholder="SELECT DISTI... tblDraw" />
+            <marker date="1520564771000" expanded="true" signature="538:784" placeholder="INSERT INTO tblRegistration... " />
+            <marker date="1520564771000" expanded="true" signature="1521:1580" placeholder="SELECT first... tblPlayer" />
+            <marker date="1520564771000" expanded="true" signature="1603:1647" placeholder="SELECT cours... tblCourse" />
+            <marker date="1520564771000" expanded="true" signature="1668:1706" placeholder="SELECT DISTI... tblDraw" />
           </folding>
         </state>
       </provider>
