@@ -19,60 +19,46 @@ include 'draw.php';
     <div class="grid-x grid-padding-x grid-padding-y">
       <div class="medium-12 cell">
         <?php
-          if ($result->num_rows > 0) {
+        if ($result->num_rows > 0) {
           echo "
           <table style='text-align: Left;'>
             <tr>
               <th>Date</th>
               <th>Tee Off Time</th>
+              <th>Course</th>
+              <th>Tee Off Hole</th>
               <th>Player 1</th>
               <th>Player 2</th>
               <th>Player 3</th>
               <th>Player 4</th>
             </tr>";
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
+          // output data of each row
+          while($row = $result->fetch_assoc()) {
             echo "
             <tr>
               <td>".$row["dateStart"]."</td>
               <td>".$row["timeStart"]."</td>
+              <td>".$row["courseName"]."</td>
+              <td>".$row["teeOffHole"]."</td>
               <td>".$row["Player One"]."</td>
               <td>".$row["Player Two"]."</td>
               <td>".$row["Player Three"]."</td>
               <td>".$row["Player Four"]."</td>
             </tr>";
-            }
-            echo "</table>";
-          } else {
-          echo "0 results";
           }
-          $conn->close();
+          echo "</table>";
+        } else {
+          echo "0 results";
+        }
+        $conn->close();
         ?>
       </div>
-
-      <div class="medium-4 cell">
-        <form>
-          <p>Would you like to swap anyone around?</p>
-
-          <label>Swap this guy
-            <input type="text" placeholder="Guest First Name">
-          </label>
-
-          <label>With this guy
-            <input type="text" placeholder="Guest Last Name">
-          </label>
-
-          <a href="register.html.php" class="button expanded">Swap</a>
-
-        </form>
-      </div>
-      <div class="medium-8 cell"></div>
 
 
     </div>
   </div>
 
+<?php
+include 'includes/footer.html.php';
+?>
 
-<script src="assets/js/app.js"></script>
-</body>
-</html>

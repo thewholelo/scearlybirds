@@ -1,5 +1,5 @@
 <?php
-include 'includes/header.html.php';
+include 'includes/wallyheader.html.php';
 ?>
 
 <?php
@@ -16,14 +16,15 @@ include 'index.php';
     <div class="grid-x grid-margin-x">
         <div class="large-12 cell">
             <div class="callout">
-                <h5>Thanks for giving Early Birds Online a go! </h5>
-                <p>Please choose from one of the options below</p>
+                <h5>Hi Wally!</h5>
+                <p>What would you like to do today?</p>
             </div>
 
             <div class="stacked-for-small">
-                <a href="register.html.php" class="button expanded">Register Players</a>
-                <a href="draw.html.php" class="button expanded">View Draw</a>
-                <a href="cancel.html.php" class="button expanded">Can't Make It?</a>
+                <a href="wallydraw.html.php" class="button expanded">Check a draw and make changes</a>
+                <a href="wallymanage.html.php" class="button expanded">Add/ remove members or open a new draw</a>
+
+                <a href="index.html.php" class="button expanded">Go the home page that non-admin members see</a>
             </div>
 
         </div>

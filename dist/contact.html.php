@@ -132,8 +132,10 @@ include 'contact.php';
         </div>
       </div>
     </div>
-    
 
-    <script src="assets/js/app.js"></script>
-  </body>
-</html>
+
+
+<?php
+include 'includes/footer.html.php';
+?>
+

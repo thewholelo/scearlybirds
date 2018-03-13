@@ -138,6 +138,9 @@ include 'register.php';
           </div>
         </div>
       </form>
-    <script src="assets/js/app.js"></script>
-  </body>
-</html>
+
+
+<?php
+include 'includes/footer.html.php';
+?>
+

@@ -63,7 +63,8 @@ include 'cancel.php';
     </div>
 </form>
 
-<!-- closing the tags opened in includes/header.html.php -->
-<script src="assets/js/app.js"></script>
-</body>
-</html>
+
+<?php
+include 'includes/footer.html.php';
+?>
+
