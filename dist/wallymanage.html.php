@@ -21,7 +21,7 @@ include 'wallymanage.php';
         </div>
     </div>
 <!-- add a new draw date -->
-<form action="wallymanage.html.php" method="post">
+<form action="wallymanage.php" method="post">
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-12 cell">
