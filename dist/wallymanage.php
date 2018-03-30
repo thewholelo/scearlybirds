@@ -12,15 +12,15 @@ $sql = "
   INSERT INTO tblDraw 
     (fk_Course, dateStart, timeStart, blnDrawOpen, dteCreated, dteUpdated)
   VALUES
-	('1', $buildDrawDate, '7:24:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '7:32:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '7:40:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '7:48:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '7:56:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '8:04:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '8:12:00', '1', NOW(), NOW())
-    ,('1', $buildDrawDate, '8:20:00', '1', NOW(), NOW())
-	,('1', $buildDrawDate, '8:28:00', '1', NOW(), NOW())
+	('1', '$buildDrawDate', '7:24:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '7:32:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '7:40:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '7:48:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '7:56:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '8:04:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '8:12:00', '1', NOW(), NOW())
+    ,('1', '$buildDrawDate', '8:20:00', '1', NOW(), NOW())
+	,('1', '$buildDrawDate', '8:28:00', '1', NOW(), NOW())
 ";
 
 // action sql statement

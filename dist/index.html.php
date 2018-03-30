@@ -22,7 +22,7 @@ include 'index.php';
 
             <div class="stacked-for-small">
                 <a href="register.html.php" class="button expanded">Register Players</a>
-                <a href="draw.html.php" class="button expanded">View Draw</a>
+<!--                <a href="draw.html.php" class="button expanded">View Draw</a>-->
                 <a href="cancel.html.php" class="button expanded">Can't Make It?</a>
             </div>
 
